@@ -5,9 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from koreanize_matplotlib import koreanize
-koreanize()
+
 
 def run_eda():
+    koreanize()
     st.subheader('데이터 분석')
 
     # 데이터 로드
